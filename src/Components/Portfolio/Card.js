@@ -1,16 +1,15 @@
 import React from "react";
 import "./Card.css";
 
-const Card = ({ cardHeading, cardImage, cardPara, children, link }) => {
+const Card = ({ heading, cardImage, cardCaption, children }) => {
   return (
     <>
       <div className="cardContainer">
-        <img src={cardImage} alt="" srcset="" />
-        <h4 className="cardHeading">{cardHeading}</h4>
-        <figcaption className="cardPara">{cardPara}</figcaption>
-        <button className="knowMore">
-          <a href={link}> Know more</a>
-        </button>
+        <img className="cardImage" src={cardImage} alt="" srcset="" />
+        <div className="cardTextBox">
+          <h3 className="heading">{heading}</h3>
+          <caption className="cardPara">{cardCaption}</caption>
+        </div>
       </div>
     </>
   );

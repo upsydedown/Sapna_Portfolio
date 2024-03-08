@@ -24,15 +24,11 @@
 
 .aboutMeHeaderText > p {
     text-align: left;
-    font-size: 1.5rem;
-}
-
-.aboutMeCap {
-    text-align: left;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 
 .aboutMeHeader {
+    /* border: 1px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,10 +51,14 @@
     z-index: 0;
 }
 
+.image1:hover {
+    transform: scale(1.1, 1.1);
+}
+
 .image1::before {
     content: "";
     display: block;
-    height: 99%;
+    height: fill;
     position: absolute;
     top: 0;
     left: 0;
@@ -82,7 +82,7 @@
 .image3::before {
     content: "";
     display: block;
-    height: 99%;
+    height: fill;
     position: absolute;
     top: 0;
     left: 0;
@@ -106,7 +106,7 @@
 .image2::before {
     content: "";
     display: block;
-    height: 99.1%;
+    height: fill;
     position: absolute;
     top: 0;
     left: 0;
@@ -118,4 +118,8 @@
 
 .image2:hover::before {
     opacity: 0%;
+}
+
+.aboutMeText {
+    color: white;
 }

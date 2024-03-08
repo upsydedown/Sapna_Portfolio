@@ -1,25 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Sacramento&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat:wght@500;700&family=Sacramento&display=swap");
-
-.navigation {
-    position: fixed;
-    top: 1.8rem;
-    left: 72.5%;
-    z-index: 1;
-}
-.navigation > span {
-    padding: 0rem 1rem 0rem 1rem;
-}
-
-.navigation > span > a {
-    color: rgb(156, 156, 156);
-    text-decoration: none;
-}
-.navigation > span > a:hover {
-    color: whitesmoke;
-    text-decoration: none;
-    transition: all 0.1s ease-out;
-}
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
 
 .header::before {
     content: "";
@@ -76,9 +56,10 @@
 
 .heading {
     text-align: center;
-    font-size: 7rem;
+    font-size: 7.2rem !important;
     color: rgb(209, 209, 209);
-    font-family: "Sacramento", cursive;
+    font-family: "Sacramento" !important;
+    font-weight: 400 !important;
 }
 
 .heading:hover,
@@ -89,7 +70,7 @@
 .captionText {
     color: rgb(156, 156, 156);
     position: relative;
-    left: 0.75rem;
+    top: 2.5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -97,19 +78,19 @@
 
 .cap {
     font-family: "Manrope", sans-serif;
-    font-size: 2.25rem;
+    font-size: 1.95rem !important;
     padding: 0.5rem;
 }
 
 .bar {
     font-family: "Manrope", sans-serif;
-    font-size: 3rem;
+    font-size: 3rem !important;
     color: rgb(59, 59, 59);
 }
 
 .scrollUpbtn {
     position: relative;
-    top: 1rem;
+    top: 5rem;
     left: 1rem;
     background-color: rgb(0, 0, 0);
     padding: 1rem;

@@ -1,0 +1,25 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    top: 1.8rem;
+    left: 72.5%;
+    z-index: 100;
+}
+.navigation > li {
+    padding: 0rem 0.5rem 0rem 0.5rem;
+    list-style: none;
+}
+.navigation > li > a {
+    color: rgb(156, 156, 156);
+    text-decoration: none;
+    font-weight: 500;
+}
+.navigation > li > a:hover,
+:active {
+    color: rgb(245, 0, 0);
+    text-decoration: none;
+    transition: all 0.1s ease-out;
+}
