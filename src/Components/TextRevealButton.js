@@ -4,7 +4,7 @@ function TextRevealButton({ animation }) {
   const [textIndex, setTextIndex] = useState(-1); // Initial state: nothing visible
   const texts = [
     "Is this a game or a portfolio? Click again and I'll tell ya!",
-    "Haha! Made you click. Now trust me and click again.?",
+    "Haha! Made you click. Now trust me and click again?",
     "Why are you still here clicking? Explore the nav bar!",
   ];
 

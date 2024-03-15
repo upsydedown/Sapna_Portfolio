@@ -4,7 +4,7 @@ const MobileMessage = () => {
   return (
     <>
       <p className="messagePara">
-        Please view it on larger screen size for better experience
+        Please view it on desktop for better experience
       </p>
     </>
   );

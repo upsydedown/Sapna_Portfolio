@@ -35,6 +35,8 @@
 }
 
 .imageBox {
+    position: relative;
+    left: 0.5rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
