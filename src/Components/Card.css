@@ -1,0 +1,55 @@
+.cardContainer {
+    max-height: 35rem;
+    max-width: 30rem;
+    margin: 0rem 1rem 5rem 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /* background-color: rgb(248, 252, 248); */
+    -webkit-transition: all 0.09s ease-in;
+    -o-transition: all 0.09s ease-in;
+    transition: all 0.09s ease-in;
+    z-index: 2;
+}
+
+.cardContainer:hover {
+    -webkit-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+    -webkit-box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.655);
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.655);
+    /* border: 1px solid rgb(154, 202, 154); */
+}
+
+.heading {
+    font-style: normal;
+    font-family: Fraunces;
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 2rem;
+    font-weight: lighter;
+}
+
+.cardPara {
+    font-family: lato, light;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.cardImage {
+    height: 24rem;
+    mix-blend-mode: darken;
+}

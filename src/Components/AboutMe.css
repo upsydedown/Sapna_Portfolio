@@ -1,0 +1,141 @@
+.aboutMeMainBody {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0 10% 0 10%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.aboutMeBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 2% 0% 0 0%;
+    gap: 10%;
+    /* overflow: hidden; */
+}
+
+.aboutMeHeaderText {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    top: 1rem;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 35%;
+}
+
+.aboutMeHeaderText > img {
+    position: absolute;
+    top: -0.5rem;
+    width: 36rem;
+}
+
+.aboutMeLeft {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.aboutMeimage {
+    width: 100%;
+}
+
+.aboutMeimage > img {
+    width: 16rem;
+}
+
+.aboutMeText {
+    text-align: left;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    padding: 0rem 1.5rem 0rem 1.5rem;
+    text-wrap: wrap;
+    color: #f5de19;
+}
+
+.colorChange {
+    color: #af0044;
+}
+
+.emailButton {
+    text-decoration: none;
+    color: #af0044;
+}
+
+.emailButton:hover,
+.emailButton:active {
+    background-color: #f5de19;
+    text-decoration: underline;
+}
+
+.specialSkills > li {
+    position: relative;
+    top: 0.5rem;
+    left: 2.5rem;
+}
+
+.image1 {
+    position: relative;
+    top: 5rem;
+    left: 8rem;
+    z-index: 2;
+}
+
+.image3 {
+    position: relative;
+    top: -5rem;
+    left: 8rem;
+    z-index: 0;
+}
+
+.image2 {
+    position: relative;
+    z-index: 1;
+}

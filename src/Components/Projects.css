@@ -1,0 +1,71 @@
+.myProjects {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.myProjectsCard {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.imageBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    /* overflow: hidden; */
+}
+
+.imageBox > a > img {
+    -webkit-transition: all 0.25s ease-in;
+    -o-transition: all 0.25s ease-in;
+    transition: all 0.25s ease-in;
+}
+
+.imageBox > a > img:hover {
+    -webkit-transform: translate(0, -5rem) !important;
+    -ms-transform: translate(0, -5rem) !important;
+    transform: translate(0, -5rem) !important;
+}
+
+.myProjectbg {
+    position: absolute;
+    top: 11rem;
+    left: 33rem;
+}
+
+.plank {
+    position: absolute;
+    left: 42.5rem;
+}

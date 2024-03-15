@@ -1,0 +1,21 @@
+button {
+    position: relative;
+    left: 0.75rem;
+    top: -0.5rem;
+    border: 0px;
+    padding: 0.5rem;
+    text-align: center;
+    /* line-height: 10px; */
+    background-color: transparent;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    color: #af0044;
+}
+button:hover,
+button:active {
+    background-color: #af0044;
+    color: #f5de19;
+    text-decoration: none;
+}
