@@ -18,7 +18,7 @@ body {
     background-image: url("https://i.imgur.com/Aigv6X4.png");
 }
 
-@media (width < 799px) {
+@media (width < 1000px) {
     .mainAppBody {
         display: none;
     }
