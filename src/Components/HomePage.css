@@ -8,7 +8,6 @@
     display: flex;
     width: -webkit-fill-available;
     width: -moz-available;
-
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -70,6 +69,7 @@
 
 .headerLeft > img {
     width: 100%;
+    height: 100%;
     -webkit-animation: rotate 5s infinite linear;
     animation: rotate 5s infinite linear;
 }
@@ -105,6 +105,7 @@
     font-weight: 400 !important;
     font-style: normal;
     text-transform: uppercase;
+    text-wrap: nowrap;
 }
 
 .heading:hover,
@@ -135,6 +136,7 @@
     font-size: 2vw;
     padding: 0.5rem;
     color: #f5de19;
+    text-wrap: nowrap;
 }
 
 .bar {
