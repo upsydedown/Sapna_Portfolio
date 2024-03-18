@@ -10,7 +10,7 @@ const HomePage = () => {
       <section className="header">
         <div className="headerBox">
           <div className="headerLeft animate__animated animate__fadeIn animate__delay-1s">
-            <img src="./images/HomepageImage.png" alt="" srcset="" />
+            <img src="./images/homepageImage.png" alt="" srcset="" />
           </div>
 
           <div className="headerRight">
