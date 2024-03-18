@@ -29,9 +29,7 @@
     background-color: transparent;
     padding: 1rem;
     text-transform: uppercase;
-    /* -webkit-transition: all 0.1s ease-in-out; */
-    /* -o-transition: all 0.1s ease-in-out; */
-    /* transition: all 0.1s ease-in-out; */
+
     border: 0px;
     cursor: pointer;
 }
@@ -51,4 +49,10 @@
     background-color: #af0044;
     color: #f5de19;
     padding: 0.5rem;
+}
+
+@media (width < 1250px) {
+    .buttonBody {
+        top: 1rem;
+    }
 }

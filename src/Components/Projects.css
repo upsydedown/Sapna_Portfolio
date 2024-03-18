@@ -12,8 +12,7 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 0 10% 0 10%;
     height: 100vh;
     overflow: hidden;
 }
@@ -24,7 +23,7 @@
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
+    align-items: start;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -35,8 +34,6 @@
 }
 
 .imageBox {
-    position: relative;
-    left: 0.5rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -63,11 +60,22 @@
 
 .myProjectbg {
     position: absolute;
-    top: 11rem;
-    left: 33rem;
+    top: 15rem;
+    left: 32.5rem;
 }
 
 .plank {
     position: absolute;
-    left: 42.5rem;
+    left: 35vw;
+}
+
+@media (width < 1250px) {
+    .myProjectbg {
+        top: clamp(0%, 40vh + 10%, 20%);
+        left: clamp(0%, 30vw + 10%, 14%);
+    }
+
+    .plank {
+        left: clamp(0%, 30vw + 10%, 27.5%);
+    }
 }

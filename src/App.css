@@ -12,13 +12,13 @@ body {
 }
 
 .mainAppBody {
-    height: 100vh;
+    height: 100%;
     /* overflow: visible; */
     /* margin: 0 10% 0 10%; */
     background-image: url("https://i.imgur.com/Aigv6X4.png");
 }
 
-@media (width < 1023px) {
+@media (width < 799px) {
     .mainAppBody {
         display: none;
     }

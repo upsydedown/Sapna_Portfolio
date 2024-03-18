@@ -14,7 +14,7 @@
     flex-direction: column;
     margin: 0 10% 0 10%;
     height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .aboutMeBox {
@@ -30,9 +30,9 @@
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
-    margin: 2% 0% 0 0%;
+    width: 100%;
+    /* margin: 2% 0% 0 0 */
     gap: 10%;
-    /* overflow: hidden; */
 }
 
 .aboutMeHeaderText {
@@ -51,17 +51,18 @@
     -ms-flex-pack: center;
     justify-content: center;
     position: relative;
-    top: 1rem;
+    /* top: -rem; */
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
-    width: 35%;
+    width: 50%;
 }
 
 .aboutMeHeaderText > img {
     position: absolute;
-    top: -0.5rem;
-    width: 36rem;
+    left: -1vw;
+    height: 54rem;
+    width: 36.5dvw;
 }
 
 .aboutMeLeft {
@@ -79,6 +80,7 @@
     -ms-flex-direction: column;
     flex-direction: column;
     padding: 1rem;
+    width: 50%;
 }
 
 .aboutMeimage {
@@ -86,16 +88,17 @@
 }
 
 .aboutMeimage > img {
-    width: 16rem;
+    width: 17.65vw;
 }
 
 .aboutMeText {
+    width: 35dvw;
     text-align: left;
     font-family: "VT323", monospace;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.5rem;
-    padding: 0rem 1.5rem 0rem 1.5rem;
+    font-size: 1.45vw;
+    padding: 0rem 0.5rem 0rem 0.5rem;
     text-wrap: wrap;
     color: #f5de19;
 }
@@ -138,4 +141,14 @@
 .image2 {
     position: relative;
     z-index: 1;
+}
+
+@media (width < 1250px) {
+    .aboutMeHeaderText > img {
+        height: clamp(110%, 30vh + 10%, 100%);
+        width: clamp(100%, 40vw + 10%, 100%);
+    }
+    .aboutMeText {
+        width: clamp(50%, 30vw + 10%, 100%);
+    }
 }
