@@ -61,12 +61,12 @@
 .myProjectbg {
     position: absolute;
     top: 15rem;
-    left: 32.5rem;
+    left: 31.5rem;
 }
 
 .plank {
     position: absolute;
-    left: 35vw;
+    left: 34.5vw;
 }
 
 @media (width < 1250px) {
